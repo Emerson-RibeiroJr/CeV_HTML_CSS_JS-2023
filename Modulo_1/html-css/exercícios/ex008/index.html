@@ -5,6 +5,11 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Formatação de Textos</title>
+   <style>
+      mark {
+         background-color: lime;
+      }
+   </style>
 </head>
 <body>
    <h1>Principais formatações</h1>
@@ -14,6 +19,24 @@
    <h2>Itálico / Ênfase</h2>
    <p>Nesta frase, seguiremos com um exemplo de <i>Itálico</i> não semântico, ou seja, apenas forma, utilizando a tag &lt;i&gt;.</p>
    <p>E agora utilizando da forma correta com semântica, dando sentido e forma, temos o <em>Itálico</em>, utilizando a tag &lt;em&gt;</p>
-   
+   <h2>Texto com marcações</h2>
+   <p>Texto com <mark <!--style="background-color: lime;-->">marcação</mark>, com a tag &lt;mark&gt;</p>
+   <p>Outro texto com a tag &lt;mark&gt; porém herdando a <mark>configuração do texto acima</mark>. Utilizando a tag &lt;style&gt; no head do html. Porém o ideal é criar um novo documento .css para que ele tenha uma comunicação com o html mais limpa.</p>
+   <h2>Texto grande e pequeno</h2>
+   <p><big>Texto grande</big><br>
+      <small>Texto pequeno</small>
+   </p>
+   <h2>Texto deletado</h2>
+   <p><del>Marcação de texto excluído</del>, para indicar que ele deve ser lido, porém não mais considerado.
+   Utilizando a tag &lt;del&gt;</p>
+   <h2>Texto inserido</h2>
+   <p><ins>Marcação de texto inserido</ins>, indicando ênfase pois, foi adicionado recentemente.
+   Utilizando a tag &lt;ins&gt;</p>
+   <h2>Texto Sobrescrito</h2>
+   <p>Para inserir coisas do tipo x<sup>20</sup>+3<br>
+      Utilizando a tag &lt;sup&gt;</p>
+   <h2>Texto subscrito</h2>
+   <p>Para inserir coisas do tipo H<sub>2</sub>O<br>
+      Utilizando a tag &lt;sub&gt;</p>
 </body>
 </html>
