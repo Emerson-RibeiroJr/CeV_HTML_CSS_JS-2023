@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Listas OL e UL</title>
+</head>
+<body>
+   <h1>Trabalhando com Listas</h1>   
+   <h2>Listas Ordenadas &lt;ol&gt;</h2>
+   <!-- Padrão é ordenar por numeração. Caso queira alterar, basta criar uma classe conforme abaixo e escolher a opção que melhor se enquadra. -->
+   <ol type="i" start="3">
+      <!-- Caso queria que inicie de um número/posição expecífico(a) basta acrescentar o "start" -->
+      <li>Acordar</li>
+      <li>Arrumar a Cama e o Quarto</li>
+      <li>Escovar os Dentes</li>
+      <li>Tomar Banho</li>
+      <li>Ligar para Vih</li>
+      <li>Se Vestir</li>
+      <li>Tomar Café</li>
+      <li>Ir pegar o ônibus</li>
+      <li>Iniciar trabalhos</li>
+   </ol>
+
+   <h2>Listas Não Ordenadas&lt;ul&gt;</h2>
+   <!-- Funcionam sem uma indicação de sequência, mas sim em tópicos. Neste modelo tem opção de disc (padrão), circle e square. -->
+   <ul type="square">
+      <li>Acordar</li>
+      <li>Arrumar a Cama e o Quarto</li>
+      <li>Escovar os Dentes</li>
+      <li>Tomar Banho</li>
+      <li>Ligar para Vih</li>
+      <li>Se Vestir</li>
+      <li>Tomar Café</li>
+      <li>Ir pegar o ônibus</li>
+      <li>Iniciar trabalhos</li>
+   </ul>
+   <h2>Meus jogos favoritos</h2>    
+   <ol type="I">
+      <li>Jogos antigos</li>
+      <ol type="i">
+         <li>Ragnarok</li>
+         <li>Counter-Strike</li>
+         <li>Albion</li>
+         <li>Talisman OnLine</li>
+         <li>Metal Slug</li>
+         <li>New World</li>
+      </ol>
+      <li>Jogos atuais</li>
+      <ol type="i">
+         <li>League of Legends</li>
+         <li>Valheim</li>
+         <li>Assassin's Creed</li>
+         <li>Monster Hunter</li>
+         <li>Good of War</li>
+      </ol>
+   </ol>
+   <h3>Abaixo - Junção de listas OL &lt;ol&gt; e UL &ltul&gt;</h3>
+   <h2>Jogos Favoritos</h2>
+   <ul type="square">
+      <li>Jogos antigos</li>
+      <ol type="i">
+         <li>Ragnarok</li>
+         <li>Counter-Strike</li>
+         <li>Albion</li>
+         <li>Talisman OnLine</li>
+         <li>Metal Slug</li>
+         <li>New World</li>
+      </ol>
+      <li>Jogos atuais</li>
+      <ol type="i">
+         <li>League of Legends</li>
+         <li>Valheim</li>
+         <li>Assassin's Creed</li>
+         <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>etc</li>
+         </ul>
+         <li>Monster Hunter</li>
+         <li>Good of War</li>
+      </ol>
+   </ul>
+   <h2>Lista de Definições DL &lt;dl&gt;</h2>
+   <dl>
+      <!-- Termo -->
+      <dt>HTML</dt>
+      <!-- Descrição -->
+      <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+      <dt>CSS</dt>
+      <dd>Linguagem de marcação para criação do design de um site.</dd>
+      <dt>JavaScript</dt>
+      <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+   </dl>
+</body>
+</html>
