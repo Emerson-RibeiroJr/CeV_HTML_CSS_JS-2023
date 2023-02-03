@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="icon/panda.ico" type="image/x-icon">
+   <title>Imagem Flexível</title>
+</head>
+<body>
+   <h1>Imagem Flexível</h1>
+   <h2>(Diversos dispositivos)</h2>
+   <p>
+      Esperimente Alpliar e/ou reduzir o tamanho do navegador e veja a imagem se ajustando para o tamano, melhorando sua experiência.
+   </p>
+   <picture>
+      <source media="(max-width: 750px)" srcset="image/Pyke-P.jpg" type="image/jpg">
+      <source media="(max-width: 1050px)" srcset="image/Pyke580.jpg" type="image/jpg">
+      <img src="image/Pyke920.jpg" alt="imagem flexível">
+   </picture>
+</body>
+</html>
