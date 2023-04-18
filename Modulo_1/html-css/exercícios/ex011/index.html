@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
    <title>Mídias em HTML5</title>
 </head>
+
 <body>
    <h1>Imagem Dinâmica</h1>
    <p>
@@ -17,5 +19,18 @@
       <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
       <img src="imagens/foto-g.png" alt="imagem flexível">
    </picture>
+
+   <h1>Reproduzindo Áudio</h1>
+   <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+   <!-- autoplay / loop -->
+   <audio preload="metadata" controls>
+      <!-- MP3 WAV OGG -->
+      <source src="midia/Window Demons - roljui.mp3" type="audio/mpeg">
+      <source src="midia/Window Demons - roljui.mp3" type="audio/ogg">
+      <source src="midia/Window Demons - roljui.mp3" type="audio/wav"> <!--Evitar por ser muito pesado-->
+      <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Window Demons - roljui.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
 </body>
+
 </html>
